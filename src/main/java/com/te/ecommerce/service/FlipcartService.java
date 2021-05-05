@@ -6,6 +6,7 @@ import com.te.ecommerce.bean.Admin;
 import com.te.ecommerce.bean.Item;
 
 
+
 public interface FlipcartService {
 
 	public Admin authenticate(Integer id, String password);

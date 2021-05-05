@@ -22,7 +22,7 @@
 
 
 	<fieldset>
-		<legend>Add Employee</legend>
+		<legend>Remove item</legend>
 		<form action="./remove" method="post">
 			<table>
 				<tr>

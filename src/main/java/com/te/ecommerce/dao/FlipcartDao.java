@@ -7,6 +7,9 @@ import com.te.ecommerce.bean.Item;
 
 
 
+
+
+
 public interface FlipcartDao {
 
 	public Admin authenticate(Integer id, String password);
@@ -21,3 +24,5 @@ public interface FlipcartDao {
 	
 	public boolean updateItem(Item item);
 }
+
+	

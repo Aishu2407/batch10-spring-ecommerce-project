@@ -11,6 +11,8 @@ import org.springframework.stereotype.Repository;
 
 import com.te.ecommerce.bean.Admin;
 import com.te.ecommerce.bean.Item;
+import com.te.ecommerce.customexcp.FlipcartException;
+
 
 
 @Repository
@@ -64,7 +66,7 @@ public class FlipcartDaoImpl implements FlipcartDao{
 			return true;
 		} catch(Exception e) {
 			e.printStackTrace();
-			return false;
+			throw new FlipcartException("Item you are looking for is not present");
 		}
 	}
 
@@ -127,4 +129,5 @@ public class FlipcartDaoImpl implements FlipcartDao{
 
 
 	
+
 }

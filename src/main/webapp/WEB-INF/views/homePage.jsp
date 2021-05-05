@@ -11,7 +11,7 @@
 </head>
 <body>
 	
-	<h2>Welcome to FlipCart Home Page....</h2>
+	<h2>Welcome to Flipcart Home Page....</h2>
 
 </body>
 </html>
